@@ -115,7 +115,7 @@ def get_args_parser():
     # Dataset parameters
     parser.add_argument('--data_path', default='/home/jupyter/Mor_DR_data/data/data/IDRID/Disease_Grading/', type=str,
                         help='dataset path')
-    parser.add_argument('--nb_classes', default=1000, type=int,
+    parser.add_argument('--nb_classes', default=4, type=int,
                         help='number of the classification types')
 
     parser.add_argument('--output_dir', default='./output_dir',
